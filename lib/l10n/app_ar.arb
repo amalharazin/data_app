@@ -1,0 +1,18 @@
+{
+  "login_hint": "...أهلاً بك",
+  "login_message": "أدخل البريد وكلمة المرور",
+  "login": "تسجيل دخول",
+  "email": "البريد",
+  "password": "كلمة المرور",
+  "language_hint": "اختر اللغة",
+  "language_message": "حدد اللغة المناسبة ",
+  "confirm_hint": "هل انت متأكد",
+  "confirm_message":"سيتم تسجيل خروجك",
+  "yes": "نعم",
+  "no": "لا",
+  "no_account": "ليس لديك حساب",
+  "create_now": "أنشئ الأن",
+  "register": "انشاء حساب",
+  "full_name": "الاسم الكامل"
+
+}

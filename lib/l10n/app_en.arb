@@ -1,0 +1,17 @@
+{
+  "login_hint": "Welcome back...",
+  "login_message": "Enter email& password",
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "language_hint": "Choose language",
+  "language_message": "Select suitable language from below",
+  "confirm_hint": "Are you sure",
+  "confirm_message":"You will be logged out",
+  "yes": "Yes",
+  "no": "NO",
+  "no_account": "Dont't have account",
+  "create_now": "Create Now",
+  "register": "Register",
+  "full_name": "Full name"
+}

@@ -1,0 +1,54 @@
+=>SqLite Database
+   => used in both mobile & web apps
+   => consist of:
+       => tables
+           => tables must have a property assigned for a column called(Primary Key)
+                 => numeric value , UnSigned ,Unique,Auto Increment , start from 1 
+       plural (cars, users,students)
+          => contains a group of column & rows
+          columns:
+           => each column must have:
+              =>name(lower case)
+              name, first_name, mobile_number
+              =>Datatype
+                  => VARCHAR,TEXT,CHAR,Boolean,INT,TinyInt,float
+              
+              =>Size
+              //تختلف حسب نوع المتغير
+              =>properties
+                 =>Indexes
+                    =>primary key
+                    =>Foreign key
+                    =>Unique(ما بتتكرر)
+                    => ect..
+                 => Auto Increment (numeric)(يزداد زيادة تلقائية )
+                 //عمود بتزيد قيمته بشكل تلقائي
+                 =>UnSigned (only positive value) (numeric)
+                 =>Zero fil(accept zero) (numeric)
+                 => null (can have a null value)
+
+       =>Rows(تقاطع الاعمدة)
+            => Each row contains values all/ some column
+            => Each row preferred to have PK
+            =>some value in  the row  can be null
+            =>some value in  the row  cant be duplicated(Unique)
+
+
+
+SQL -Relational Database
+     =>One To One
+        => Each row has a single row in the  other table
+        =>Inverse : One To One
+     =>One To Many
+        => Each category can have many sub-categories
+        => Each sub-categories belongs to one category
+        =>Inverse: One To One
+     =>Many To Many
+        => Student can register many subject
+        =>subject can be registered by many student
+        =>Result : New Table contains 2 FK for both table 
+
+
+
+
+
